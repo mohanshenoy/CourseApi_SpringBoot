@@ -1,7 +1,7 @@
 package com.infoscilabs.model;
 
 public class Topic {
-	private int id;
+	
 	private String name;
 	private String description;
 	
@@ -9,17 +9,10 @@ public class Topic {
 		
 	}
 	
-	public Topic(int id, String name, String description) {
+	public Topic(String name, String description) {
 		super();
-		this.id = id;
 		this.name = name;
 		this.description = description;
-	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
 	}
 	public String getName() {
 		return name;
