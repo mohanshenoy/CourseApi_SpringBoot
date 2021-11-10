@@ -6,17 +6,17 @@
   <name>CourseApi_SpringBoot</name>
   <description>CourseApi SpringBoot</description>
   
- 	<parent>
+  <parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>2.4.12</version>
+	<relativePath/> 
+  </parent>
+  <dependencies>
+	<dependency>
 		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.12</version>
-		<relativePath/> 
-	</parent>
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-	</dependencies>	
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+  </dependencies>	
 	
 </project>
